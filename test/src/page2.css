@@ -1,0 +1,90 @@
+body {
+    margin:25px;
+    backgound-color: #FFF5EE;
+}
+
+h1{
+    text-align: center;
+}
+
+div.explanation{
+    text-align: center  ;
+}
+
+div.polaroid {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid .hover {
+    display: none;
+}
+
+.polaroid:hover .hover {
+    display: block;
+}
+
+#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#login-error-msg {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+}
+
+#error-msg-second-line {
+    display: block;
+}
+
+.login-form-field {
+    border-bottom: 1px solid #3a3a3a;
+    border-radius: 3px;
+    outline: none;
+    padding: 7px;
+}
+
+#login-form-submit {
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#login-form {
+    align-self: flex-start;
+    justify-items: center;
+    align-items: center;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+}
+

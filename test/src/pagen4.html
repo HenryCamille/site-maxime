@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 4</title>
+  <link rel="stylesheet" href="page4.css">
+  <script defer src="page4.js"></script>
+</head>
+
+
+
+<body>
+
+  <br/><br/>
+
+  <div class="title">
+    <h1>
+      Passons aux choses sérieuses :
+    </h1>
+    <br />
+
+    <p>
+      Il était une fois, un joli garçon qui renversa le verre de rhum d'une fille lors d'une soirée.
+      S'ils ne se sont pas rapprochés au début, un 7 familles des essences de bois à été un moment marquant du début de leur histoire.
+  <br>
+      <br>
+      Tu dois donc te douter maintenant du prochain jeu...
+    </p>
+  </div>
+
+
+  <br /><br/>
+  <br/>
+
+  <main id="main-holder" style="display: none">
+
+
+    <div class="qst">
+      Quelles sont les essences de bois suivantes ?
+    </div>
+    <br/>
+    <img src="../ressources/iroko.png" class="iroko" style=""width="100%" alt="img1"/>
+    <br/>
+
+    <div class="center">
+      <form id="login-form">
+        <input onkeyup="this.value=this.value.toLowerCase()" type="text" name="username" id="username-field" class="login-form-field" placeholder="Réponse">
+      </form>
+    </div>
+    <br/>
+    <br/>
+
+
+    <img src="../ressources/sapin.png" class="iroko" style=""width="100%" alt="img1"/>
+
+    <br/>
+
+    <div class="center">
+      <form id="login-form2">
+        <input onkeyup="this.value=this.value.toLowerCase()" type="text" name="rep2" id="password-field" class="login-form-field" placeholder="Réponse">
+      </form>
+    </div>
+
+    <br/><br/>
+
+
+    <img src="../ressources/olivier.png" class="iroko" style=""width="100%" alt="img1"/>
+
+    <br/>
+
+    <div class="center">
+      <form id="login-form3">
+        <input onkeyup="this.value=this.value.toLowerCase()" type="text" name="rep3" id="password-field2" class="login-form-field" placeholder="Réponse">
+        <br><br><br><br>
+        <input type="submit" value="Entrer" id="login-form-submit">
+      </form>
+    </div>
+    <br/>
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg" style="display: none">Mauvaise réponse, essaye encore !</p>
+    </div>
+
+  </main>
+
+  <button id="show" class="button"><span>Tu as deviné ? Non ? Alors click ici ! </span></button>
+
+
+</body>
+</html>

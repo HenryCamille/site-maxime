@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="page2.css">
+    <script defer src="page2.js"></script>
+</head>
+
+<body>
+
+<br/>
+
+<h1>
+    Bien joué ! Tu as réussis la première étape, voici la suivante :
+</h1>
+<br />
+<br />
+<br />
+
+<div class="polaroid" >
+    <img src="../ressources/bisou.jpg" class="bisou" style=""width="100%" alt="img1"/>
+    <img src="../ressources/kissSky.png" alt="sky" style="width:100%" alt="img2" class="hover">
+    <div class="container">
+        <p>Quand s'est-on ambrassé pour la première fois ?</p>
+    </div>
+</div>
+
+</body>
+
+<body>
+<main id="main-holder">
+    <h1 id="login-header">Réponse</h1>
+
+    <div class="explanation">
+        Tu dois rentrer la date sous la forme jj/mm/aaaa
+    </div>
+
+    <div id="login-error-msg-holder">
+        <p id="login-error-msg">Mauvaise réponse</p>
+    </div>
+
+    <div class="center">
+    <form id="login-form">
+        <input onkeyup="this.value=this.value.toLowerCase()" type="text" name="username" id="username-field" class="login-form-field" placeholder="Reponse">
+        <input type="submit" value="Entrer" id="login-form-submit">
+    </form>
+    </div>
+</main>
+</body>
+
+
+</html>
